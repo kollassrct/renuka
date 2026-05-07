@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renuka Group - Advanced Systems & Precision Manufacturing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                                  <img src="images/logo/renuka_logos/renuka_logo.png" alt="Renuka Group Logo" class="logo-image">
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <button onclick="scrollToSection('about')">About</button>
+                    <button onclick="scrollToSection('capabilities')">Capabilities</button>
+                    <button onclick="scrollToSection('products')">Products</button>
+                    <button onclick="scrollToSection('quality')">Quality</button>
+                    <button onclick="scrollToSection('machinery')">Machinery</button>
+                    <button onclick="scrollToSection('contact')">Contact</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg id="close-icon" style="display: none;" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu-content">
+                <button onclick="scrollToSection('about')">About</button>
+                <button onclick="scrollToSection('capabilities')">Capabilities</button>
+                <button onclick="scrollToSection('products')">Products</button>
+                <button onclick="scrollToSection('quality')">Quality</button>
+                <button onclick="scrollToSection('machinery')">Machinery</button>
+                <button onclick="scrollToSection('contact')">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Renuka Group</h1>
+                <p class="hero-subtitle">Advanced Systems & Precision Manufacturing Since 1987</p>
+                <div class="hero-stats">
+                    <div class="stat-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                            <path d="M6 12h.01M10 12h4"></path>
+                        </svg>
+                        <span>45,000 Sq Ft Facility</span>
+                    </div>
+                    <div class="stat-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <span>250 Employees</span>
+                    </div>
+                    <div class="stat-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span>ISO 9001:2015</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-gray">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3 class="card-title-sky">Renuka Advanced Systems</h3>
+                    <ul class="list-chevron">
+                        <li>Founded in 1987 - Critical parts manufacturing company</li>
+                        <li>In-house tool room supporting Injection molding, Thermoset molding, Sheet metal stamping</li>
+                        <li>High precision machined parts manufacturing</li>
+                        <li>Manufactures connectors for critical applications</li>
+                    </ul>
+                    <p style="margin-top: 1rem; font-weight: 600; color: #0f172a;">Website: <a href="https://renukasystems.in/" target="_blank" rel="noopener">renukasystems.in</a></p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title-sky">Renuka Precision Systems</h3>
+                    <ul class="list-chevron">
+                        <li>Established in 2019 with USD 7.0M investment</li>
+                        <li>High Precision CNC Cylindrical Grinding with IPG (up to 1.5 mt)</li>
+                        <li>CNC Centerless Grinding with IPG</li>
+                        <li>CNC Friction Welding, Swiss Type Sliding Heads</li>
+                        <li>CNC Turning (2 mt), CNC VMC (2 mt), Auto Tapping</li>
+                        <li>Captive Phosphating Plant</li>
+                    </ul>
+                    <p style="margin-top: 1rem; font-weight: 600; color: #0f172a;">Website: <a href="https://renukaprecision.com/" target="_blank" rel="noopener">renukaprecision.com</a></p>
+                </div>
+            </div>
+
+            <!-- Client Logos -->
+            <div class="card" style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1.5rem;">OUR CUSTOMERS</h3>
+                <p class="customer-description" style="text-align: left;">Our Customers include Marathon USA & Mexico, Regal Rexnord USA & Mexico, Stromag Germany, Kollmorgen USA & Czech, WEG USA & India, Nidec India, CG Global India, Medha Traction India, HP USA, Fab+ Ireland, etc. </p>
+                <div class="client-grid">
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/bd_logo.png" alt="BD Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/cg_logo.png" alt="CG Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/drdo_logo.png" alt="DRDO Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/fab_logo.png" alt="FAB Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/hp_logo.png" alt="HP Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/kollmorgen_logo.png" alt="Kollmorgen Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/medha_logo.png" alt="Medha Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/nidec_logo.png" alt="Nidec Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/regal_rexnord_logo.png" alt="Regal Rexnord Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/stromag_logo.png" alt="Stromag Logo">
+                    </div>
+                    <div class="client-logo">
+                        <img src="images/logo/customers_logos/weg_logo.png" alt="WEG Logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Organizational Structure -->
+            <div class="card" style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1.5rem;">Organizational Structure</h3>
+                <div class="organization-image-container">
+                    <img src="images/organization.png" alt="Organizational Structure Chart" class="organization-image">
+                </div>
+            </div>
+
+            <!-- Plant Facility Images -->
+            <div style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1.5rem;">Our Facility (Plant)</h3>
+                <div class="facility-slider auto-slider">
+                    <div class="slider-slide">
+                        <img src="images/plant/plant_1.jpg" alt="Plant Image 1">
+                        <p>Plant Facility 1</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/plant/plant_2.jpg" alt="Plant Image 2">
+                        <p>Plant Facility 2</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/plant/plant_3.jpg" alt="Plant Image 3">
+                        <p>Plant Facility 3</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/plant/plant_4.jpg" alt="Plant Image 4">
+                        <p>Plant Facility 4</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/plant/plant_5.jpg" alt="Plant Image 5">
+                        <p>Plant Facility 5</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/plant/plant_6.jpg" alt="Plant Image 6">
+                        <p>Plant Facility 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section id="capabilities" class="section-white">
+        <div class="container">
+            <h2 class="section-title">Our Capabilities</h2>
+
+            <div class="grid-2">
+                <div class="card-sky">
+                    <h3 class="card-title-sky-with-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M12 1v6m0 6v6m5.2-14.2l-4.2 4.2m-2 2l-4.2 4.2M23 12h-6m-6 0H1m14.2 5.2l-4.2-4.2m-2-2l-4.2-4.2"></path>
+                        </svg>
+                        Core Capabilities
+                    </h3>
+                    <ul class="list-check">
+                        <li>Tool Design & Development</li>
+                        <li>Tool Room</li>
+                        <li>Precision Machining Shop</li>
+                        <li>Plastic Processing</li>
+                        <li>Hi-speed Stamping</li>
+                        <li>Forging</li>
+                        <li>Electro-Mechanical Assemblies</li>
+                        <li>Design & Manufacture of SPMs, Jigs & Fixtures</li>
+                        <li>Assembly</li>
+                        <li>Quality Control</li>
+                    </ul>
+                </div>
+
+                <div class="card-sky">
+                    <h3 class="card-title-sky-with-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        Qualified Sources For
+                    </h3>
+                    <ul class="list-check">
+                        <li>Anodizing</li>
+                        <li>Zinc Plating</li>
+                        <li>Nickel Chrome Plating</li>
+                        <li>Gold & Silver Plating</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Workforce Distribution Table -->
+            <div class="card" style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1.5rem;">Available Workforce</h3>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Department</th>
+                                <th style="text-align: center;">No. of Employees</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Administration</td>
+                                <td style="text-align: center; font-weight: 600;">5</td>
+                            </tr>
+                            <tr>
+                                <td>Design</td>
+                                <td style="text-align: center; font-weight: 600;">2</td>
+                            </tr>
+                            <tr>
+                                <td>Tool Room</td>
+                                <td style="text-align: center; font-weight: 600;">10</td>
+                            </tr>
+                            <tr>
+                                <td>Engineering</td>
+                                <td style="text-align: center; font-weight: 600;">5</td>
+                            </tr>
+                            <tr>
+                                <td>Production</td>
+                                <td style="text-align: center; font-weight: 600;">5</td>
+                            </tr>
+                            <tr>
+                                <td>Planning</td>
+                                <td style="text-align: center; font-weight: 600;">2</td>
+                            </tr>
+                            <tr>
+                                <td>Skilled</td>
+                                <td style="text-align: center; font-weight: 600;">50</td>
+                            </tr>
+                            <tr>
+                                <td>Semi-Skilled</td>
+                                <td style="text-align: center; font-weight: 600;">160</td>
+                            </tr>
+                            <tr>
+                                <td>Packing</td>
+                                <td style="text-align: center; font-weight: 600;">8</td>
+                            </tr>
+                            <tr class="table-total">
+                                <td>Total</td>
+                                <td style="text-align: center;">247</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Design & Development -->
+            <div class="card-gradient-sky" style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.5rem; font-weight: bold; margin-bottom: 1.5rem;">Design & Development Expertise</h3>
+                <div class="grid-2" style="margin-bottom: 2rem;">
+                    <div>
+                        <ul class="list-check-white">
+                            <li>Over 3 decades of experience</li>
+                            <li>Design of multi cavity mold tools (32 cavity)</li>
+                            <li>Design of over-molding tools</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="list-check-white">
+                            <li>Design of Progressive press tools (30 stage)</li>
+                            <li>Design of Hydro Forming Tools</li>
+                            <li>Design of Jigs & Fixtures</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Design Images -->
+                <div class="design-slider auto-slider">
+                    <div class="slider-slide">
+                        <img src="images/design/design_1.jpg" alt="Design Image 1">
+                        <p>Design Layout 1</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/design/design_2.jpg" alt="Design Image 2">
+                        <p>Design Layout 2</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/design/design_3.jpg" alt="Design Image 3">
+                        <p>Design Layout 3</p>
+                    </div>
+                </div>
+
+                <!-- Tool Room Capabilities -->
+                <div class="card" style="margin-top: 2rem;">
+                    <h3 class="card-title-sky">Tool Room Capabilities</h3>
+                    <div class="grid-2" style="margin-bottom: 1.5rem;">
+                        <ul class="list-check-small">
+                            <li>CNC Wire Cut EDM - Charmilles</li>
+                            <li>CNC Die-sinking EDM (4 Axis) - Chmer</li>
+                        </ul>
+                        <ul class="list-check-small">
+                            <li>High Speed Machining (5 Axis) - Makino</li>
+                            <li>Jig Boring - SIP 5E</li>
+                        </ul>
+                    </div>
+
+                    <div class="toolroom-slider auto-slider">
+                        <div class="slider-slide" style="padding: 1rem; height: auto;">
+                            <img src="images/tool_room/t1.jpg" alt="Charmilles CUT 200 Sp CNC Wire Cut" style="max-width: 100%; max-height: 150px; object-fit: contain; display: block; margin-bottom: 0.75rem;">
+                            <p style="font-size: 0.875rem; margin: 0;">Charmilles CUT 200 Sp (CNC Wire Cut)</p>
+                        </div>
+                        <div class="slider-slide" style="padding: 1rem; height: auto;">
+                            <img src="images/tool_room/t2.jpg" alt="Makino F5 VMC" style="max-width: 100%; max-height: 150px; object-fit: contain; display: block; margin-bottom: 0.75rem;">
+                            <p style="font-size: 0.875rem; margin: 0;">Makino F5 (VMC)</p>
+                        </div>
+                        <div class="slider-slide" style="padding: 1rem; height: auto;">
+                            <img src="images/tool_room/t3.jpg" alt="CHMER D433CL CNC EDM" style="max-width: 100%; max-height: 150px; object-fit: contain; display: block; margin-bottom: 0.75rem;">
+                            <p style="font-size: 0.875rem; margin: 0;">CHMER D433CL (CNC EDM)</p>
+                        </div>
+                        <div class="slider-slide" style="padding: 1rem; height: auto;">
+                            <img src="images/tool_room/t4.jpg" alt="SIP 5E Jig Boring" style="max-width: 100%; max-height: 150px; object-fit: contain; display: block; margin-bottom: 0.75rem;">
+                            <p style="font-size: 0.875rem; margin: 0;">SIP 5E (Jig Boring)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Precision Machining Equipment -->
+                <div class="card" style="margin-top: 2rem;">
+                    <h3 class="card-title-sky">Precision Machining Equipment</h3>
+                    <p style="margin-bottom: 1rem; color: #334155;">Our precision machining capabilities deliver complex geometries, tight tolerances and premium surface finishes for aerospace, defense and industrial applications.</p>
+                    <div class="grid-2" style="margin-bottom: 1.5rem;">
+                        <ul class="list-check-small">
+                            <li>5-Axis Machining Centers</li>
+                            <li>Turn-Mill Centers with Y-Axis</li>
+                            <li>Twin Turret CNC Lathes</li>
+                        </ul>
+                        <ul class="list-check-small">
+                            <li>High Precision Cylindrical Grinding with IPG</li>
+                            <li>Centerless Grinding (0.5µm accuracy)</li>
+                            <li>Swiss Type Sliding Head Machines</li>
+                        </ul>
+                    </div>
+
+                    <div class="facility-slider auto-slider">
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm1.jpg" alt="ACE Jobber XL (CNC Turning)">
+                            <p>ACE Jobber XL (CNC Turning)</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm2.jpg" alt="AMS Acer XL (5-Axis & 3-Axis)">
+                            <p>AMS Acer XL (5-Axis & 3-Axis)</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm3.jpg" alt="DMG MORI CMX 600 (4-Axis)">
+                            <p>DMG MORI CMX 600 (4-Axis)</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm4.jpg" alt="DMG MORI DMU 50(5-Axis)">
+                            <p>DMG MORI DMU 50(5-Axis)</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm5.jpg" alt="DMG MORI Ecomill 600v">
+                            <p>DMG MORI Ecomill 600v</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm6.jpg" alt="DMG MORI NLX1500 (Turn-Mill)">
+                            <p>DMG MORI NLX1500 (Turn-Mill)</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/precision_machining/pm7.jpg" alt="Machine">
+                            <p>Machine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plastics Processing -->
+                <div class="card" style="margin-top: 2rem;">
+                    <h3 class="card-title-sky">Plastics Processing</h3>
+                    <div class="grid-2" style="margin-bottom: 1.5rem;">
+                        <ul class="list-check-small">
+                            <li>ENGEL e-Victory 50 Tons & 120 Tons</li>
+                            <li>Thermoplastics & Thermoset processing</li>
+                        </ul>
+                        <ul class="list-check-small">
+                            <li>Engineering plastics & Over molding</li>
+                            <li>Transfer Molding (RAS 50T)</li>
+                        </ul>
+                    </div>
+
+                    <div class="facility-slider auto-slider">
+                        <div class="slider-slide">
+                            <img src="images/plastic/p1.jpg" alt="ENGEL Victory 120 Tons">
+                            <p>ENGEL Victory 120 Tons</p>
+                        </div>
+                        <div class="slider-slide">
+                            <img src="images/plastic/p2.jpg" alt="ENGEL Victory 50 Tons">
+                            <p>ENGEL Victory 50 Tons</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section id="quality" class="section-white">
+        <div class="container">
+            <h2 class="section-title">Quality Systems</h2>
+            <div class="card" style="padding: 2rem;">
+                <ul class="list-check">
+                    <li>ISO 9001:2015</li>
+                    <li>Vendor qualification</li>
+                    <li>Inward material inspection</li>
+                    <li>In-process inspection</li>
+                    <li>Well documented process details</li>
+                    <li>Traceability</li>
+                    <li>PPAP Level-3 Documentation</li>
+                    <li>Cpk analysis</li>
+                    <li>AQL 2.5, 1.5, 1</li>
+                    <li>Ready for AS 9100 Rev D</li>
+                </ul>
+
+                <h3 class="card-title-sky" style="margin-top: 2rem;">Quality Equipment</h3>
+                <ul class="list-check">
+                    <li>CMMs</li>
+                    <li>Profile Projector</li>
+                    <li>Digital Height Gauge</li>
+                    <li>Air Gauges (LC 0.5µm)</li>
+                    <li>Lead Test</li>
+                </ul>
+
+                <div class="auto-slider quality-equipment-slider" style="margin-top: 2rem;">
+                    <div class="slider-slide">
+                        <img src="images/quality/q1.jpg" alt="Quality Equipment Image 1">
+                        <p>Zeiss Contura G2 CMM</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/quality/q2.jpg" alt="Quality Equipment Image 2">
+                        <p>Mitutoyo Profile Projector</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/quality/q3.jpg" alt="Quality Equipment Image 3">
+                        <p>RDS Articulating Probe Holder</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/quality/q4.jpg" alt="Quality Equipment Image 4">
+                        <p>Trimos Vectra Digital Height Gauge</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/quality/q5.jpg" alt="Quality Equipment Image 5">
+                        <p>Surface Roughness Tester</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/quality/q6.jpg" alt="Quality Equipment Image 6">
+                        <p>Lead Test Equipment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Machinery Section -->
+    <section id="machinery" class="section-gray">
+        <div class="container">
+            <h2 class="section-title">Machinery & Equipment</h2>
+
+            <div class="card" style="margin-bottom: 2rem;">
+                <p style="text-align: center; color: #374151;">
+                    Our state-of-the-art facility houses advanced CNC machinery from world-leading manufacturers including DMG MORI, Makino, Tsugami, ACE, Palmary, and more.
+                </p>
+            </div>
+
+            <div class="grid-4">
+                <div class="stat-card-sky">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">CNC VMC</div>
+                </div>
+                <div class="stat-card-sky">
+                    <div class="stat-number">23</div>
+                    <div class="stat-label">CNC Turning Centers</div>
+                </div>
+                <div class="stat-card-sky">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">CNC Grinding Machines</div>
+                </div>
+                <div class="stat-card-sky">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">CNC Swiss Turning</div>
+                </div>
+            </div>
+
+
+
+            <!-- Special Purpose Machines -->
+            <div class="card" style="margin-top: 2rem;">
+                <h3 class="card-title-sky">Special Purpose Machines</h3>
+                <div class="grid-2">
+                    <ul class="list-check-small">
+                        <li>CNC Friction Welding - Unitech</li>
+                        <li>CNC Facing & Centering - Taurus</li>
+                    </ul>
+                    <ul class="list-check-small">
+                        <li>Auto Tapping Machines (M16, M30)</li>
+                        <li>Captive Phosphating Plant (1 Cu Mt)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Machinery Inventory Details -->
+            <div class="card" style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.5rem; font-weight: bold; color: #0284c7; margin-bottom: 1.5rem;">Machinery Inventory</h3>
+
+                <div class="machinery-inventory-cards">
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">CNC Vertical Machining Centers — 18 Nos</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Accuracy</th>
+                                        <th>X</th>
+                                        <th>Y</th>
+                                        <th>Z</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Doosan DNM 6700L</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">1500</td><td style="text-align: center;">670</td><td style="text-align: center;">625</td></tr>
+                                    <tr><td>Makino F5</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">900</td><td style="text-align: center;">500</td><td style="text-align: center;">500</td></tr>
+                                    <tr><td>AMS 1020 V</td><td style="text-align: center;">1</td><td style="text-align: center;">20µm</td><td style="text-align: center;">1020</td><td style="text-align: center;">750</td><td style="text-align: center;">540</td></tr>
+                                    <tr><td>DMG MORI CMX 600 V - 4 Axis</td><td style="text-align: center;">2</td><td style="text-align: center;">6µm</td><td style="text-align: center;">800</td><td style="text-align: center;">600</td><td style="text-align: center;">510</td></tr>
+                                    <tr><td>Okuma MCV 3016</td><td style="text-align: center;">4</td><td style="text-align: center;">4µm</td><td style="text-align: center;">900</td><td style="text-align: center;">600</td><td style="text-align: center;">510</td></tr>
+                                    <tr><td>DMG MORI 60V</td><td style="text-align: center;">3</td><td style="text-align: center;">6µm</td><td style="text-align: center;">800</td><td style="text-align: center;">600</td><td style="text-align: center;">510</td></tr>
+                                    <tr><td>AMS ACER XL</td><td style="text-align: center;">2</td><td style="text-align: center;">15µm</td><td style="text-align: center;">800</td><td style="text-align: center;">510</td><td style="text-align: center;">500</td></tr>
+                                    <tr><td>AMS ACER XL (5-Axis)</td><td style="text-align: center;">1</td><td style="text-align: center;">15µm</td><td style="text-align: center;">800</td><td style="text-align: center;">500</td><td style="text-align: center;">500</td></tr>
+                                    <tr><td>AMS MCV 350</td><td style="text-align: center;">3</td><td style="text-align: center;">10µm</td><td style="text-align: center;">400</td><td style="text-align: center;">350</td><td style="text-align: center;">480</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">CNC Turning Centers — 23 Nos</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Accuracy</th>
+                                        <th>Dia</th>
+                                        <th>Z</th>
+                                        <th>Y</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>DMG NLX 2500 Y - Turn Mill (Y-Axis)</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">390</td><td style="text-align: center;">625</td><td style="text-align: center;">250</td></tr>
+                                    <tr><td>Doosan Puma TL2000 L (Turn Turret)</td><td style="text-align: center;">1</td><td style="text-align: center;">10µm</td><td style="text-align: center;">500</td><td style="text-align: center;">1050</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>Toshiba MI 8065 L</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">400</td><td style="text-align: center;">1000</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>ACE SIE 10 LM</td><td style="text-align: center;">4</td><td style="text-align: center;">10µm</td><td style="text-align: center;">350</td><td style="text-align: center;">625</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>ACE Jöber XL</td><td style="text-align: center;">9</td><td style="text-align: center;">10µm</td><td style="text-align: center;">350</td><td style="text-align: center;">400</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>ACE LT 30</td><td style="text-align: center;">3</td><td style="text-align: center;">10µm</td><td style="text-align: center;">300</td><td style="text-align: center;">400</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>ACE Vantage</td><td style="text-align: center;">5</td><td style="text-align: center;">10µm</td><td style="text-align: center;">300</td><td style="text-align: center;">600</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>ACE ST 50125</td><td style="text-align: center;">1</td><td style="text-align: center;">13µm</td><td style="text-align: center;">320</td><td style="text-align: center;">1050</td><td style="text-align: center;">0</td></tr>
+                                    <tr><td>ACE ST 50125</td><td style="text-align: center;">3</td><td style="text-align: center;">13µm</td><td style="text-align: center;">320</td><td style="text-align: center;">1250</td><td style="text-align: center;">0</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">CNC Grinding Machines — 6 Nos</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Accuracy</th>
+                                        <th>Dia</th>
+                                        <th>Length</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Palmary OCD 30150 IPG Margoss</td><td style="text-align: center;">1</td><td style="text-align: center;">1µm</td><td style="text-align: center;">300</td><td style="text-align: center;">1500</td></tr>
+                                    <tr><td>Palmary OCD 30100 IPG Margoss</td><td style="text-align: center;">1</td><td style="text-align: center;">1µm</td><td style="text-align: center;">300</td><td style="text-align: center;">1500</td></tr>
+                                    <tr><td>Palmary OCD 30500 IPG Margoss</td><td style="text-align: center;">1</td><td style="text-align: center;">1µm</td><td style="text-align: center;">300</td><td style="text-align: center;">1500</td></tr>
+                                    <tr><td>Palmary OCD 30800 IPG Margoss</td><td style="text-align: center;">1</td><td style="text-align: center;">1µm</td><td style="text-align: center;">300</td><td style="text-align: center;">1500</td></tr>
+                                    <tr><td>Micromatic GT CLC 9025 (Centreless Grind)</td><td style="text-align: center;">1</td><td style="text-align: center;">0.5µm</td><td style="text-align: center;">120</td><td style="text-align: center;">600</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">CNC Swiss Turning Machines — 3 Nos</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Accuracy</th>
+                                        <th>Dia</th>
+                                        <th>Z</th>
+                                        <th>Y</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Tsuagami B0385 III Bar Feeder (5-Axis)</td><td style="text-align: center;">3</td><td style="text-align: center;">4µm</td><td style="text-align: center;">32</td><td style="text-align: center;">400</td><td style="text-align: center;">16</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">Sheet Metal Machinery</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Capacity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Safan Press Break</td><td style="text-align: center;">2</td><td style="text-align: center;">80 Tons</td></tr>
+                                    <tr><td>Dobby Power Press</td><td style="text-align: center;">2</td><td style="text-align: center;">20 Tons</td></tr>
+                                    <tr><td>Rishi Power Press</td><td style="text-align: center;">1</td><td style="text-align: center;">10 Tons</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">Plastic Processing Machinery</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Capacity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Engel e-Victory</td><td style="text-align: center;">1</td><td style="text-align: center;">120 Tons</td></tr>
+                                    <tr><td>Engel e-Victory</td><td style="text-align: center;">2</td><td style="text-align: center;">40 Tons</td></tr>
+                                    <tr><td>RAS 50T (Transfer Mould)</td><td style="text-align: center;">1</td><td style="text-align: center;">40 Tons</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">Allied and Miscellaneous Machinery</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Size</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Auto Taping Machine</td><td style="text-align: center;">1</td><td style="text-align: center;">M16</td></tr>
+                                    <tr><td>Auto Taping Machine</td><td style="text-align: center;">1</td><td style="text-align: center;">M30</td></tr>
+                                    <tr><td>Auto Circular Saw</td><td style="text-align: center;">1</td><td style="text-align: center;">80 mm</td></tr>
+                                    <tr><td>Fly Frame Band Saw</td><td style="text-align: center;">1</td><td style="text-align: center;">200 mm</td></tr>
+                                    <tr><td>Band Saw</td><td style="text-align: center;">1</td><td style="text-align: center;">250 mm</td></tr>
+                                    <tr><td>High Speed Drilling</td><td style="text-align: center;">1</td><td style="text-align: center;">1/2"</td></tr>
+                                    <tr><td>Drilling Machine</td><td style="text-align: center;">1</td><td style="text-align: center;">1/2"</td></tr>
+                                    <tr><td>Phosphating Plant</td><td style="text-align: center;">1</td><td style="text-align: center;">1 Cu Mt</td></tr>
+                                    <tr><td>Reaming Machines</td><td style="text-align: center;">6</td><td style="text-align: center;">1/4"</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card machinery-table-card">
+                        <h4 class="dropdown-toggle" style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #0f172a; cursor: pointer;">Tool Room Machinery</h4>
+                        <div class="table-container" style="display: none;">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Description</th>
+                                        <th>Qty</th>
+                                        <th>Accuracy</th>
+                                        <th>X</th>
+                                        <th>Y</th>
+                                        <th>Z</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Charmilles Robo Fil 310 CNC Wire EDM</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">400</td><td style="text-align: center;">300</td><td style="text-align: center;">400</td></tr>
+                                    <tr><td>Charmilles Robo 31-50 CNC Die Sink EDM</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">400</td><td style="text-align: center;">300</td><td style="text-align: center;">500</td></tr>
+                                    <tr><td>Electronic Zinc Die Sink EDM</td><td style="text-align: center;">1</td><td style="text-align: center;">10µm</td><td style="text-align: center;">300</td><td style="text-align: center;">250</td><td style="text-align: center;">250</td></tr>
+                                    <tr><td>SHP 15E Jig Boring</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">300</td><td style="text-align: center;">200</td><td style="text-align: center;">250</td></tr>
+                                    <tr><td>Micromatic Cylindrical Grinding</td><td style="text-align: center;">1</td><td style="text-align: center;">6µm</td><td style="text-align: center;">400</td><td style="text-align: center;">180</td><td style="text-align: center;">—</td></tr>
+                                    <tr><td>Sharada Cylindrical Grinding</td><td style="text-align: center;">1</td><td style="text-align: center;">6µm</td><td style="text-align: center;">600</td><td style="text-align: center;">1200</td><td style="text-align: center;">—</td></tr>
+                                    <tr><td>Jones & Shipman SP350 Surface Grinding</td><td style="text-align: center;">1</td><td style="text-align: center;">5µm</td><td style="text-align: center;">320</td><td style="text-align: center;">450</td><td style="text-align: center;">—</td></tr>
+                                    <tr><td>Karl Hurth Milling</td><td style="text-align: center;">1</td><td style="text-align: center;">10µm</td><td style="text-align: center;">500</td><td style="text-align: center;">250</td><td style="text-align: center;">250</td></tr>
+                                    <tr><td>Makino Milling</td><td style="text-align: center;">1</td><td style="text-align: center;">20µm</td><td style="text-align: center;">500</td><td style="text-align: center;">250</td><td style="text-align: center;">250</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Machinery Gallery -->
+            <div class="card" style="margin-top: 3rem;">
+                <h3 class="text-center" style="font-size: 1.5rem; font-weight: bold; color: #0284c7; margin-bottom: 1.5rem;">Our Advanced Machinery</h3>
+                <div class="facility-slider auto-slider machinery-slider">
+                    <div class="slider-slide">
+                        <img src="images/machines/m1.jpg" alt="Swiss Type Lathe (⌀24 x 500 mm)">
+                        <p>Swiss Type Lathe (⌀24 x 500 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m2.jpg" alt="CNC Twin Turret Lathe (1000 mm)">
+                        <p>CNC Twin Turret Lathe (1000 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m3.jpg" alt="CNC Lathe (2000 mm)">
+                        <p>CNC Lathe (2000 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m4.jpg" alt="CNC Cylindrical Grinding (1200 mm)">
+                        <p>CNC Cylindrical Grinding (1200 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m5.jpg" alt="CNC Cylindrical Grinding (600 mm)">
+                        <p>CNC Cylindrical Grinding (600 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m6.jpg" alt="CNC Friction Welding">
+                        <p>CNC Friction Welding</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m7.jpg" alt="CNC VMC (500 mm)">
+                        <p>CNC VMC (500 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m8.jpg" alt="CNC VMC (1500 & 2000 mm)">
+                        <p>CNC VMC (1500 & 2000 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m9.jpg" alt="CNC Turning (600 mm)">
+                        <p>CNC Turning (600 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m10.jpg" alt="CNC Cylindrical Grinding (1500 mm)">
+                        <p>CNC Cylindrical Grinding (1500 mm)</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m11.jpg" alt="Facing – Centering Machine">
+                        <p>Facing – Centering Machine</p>
+                    </div>
+                    <div class="slider-slide">
+                        <img src="images/machines/m12.jpg" alt="CNC Cylindrical Grinding (600 mm) (2)">
+                        <p>CNC Cylindrical Grinding (600 mm) (2)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section-gray">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+
+            <div class="grid-3">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="images/products/pro1.png" alt="Missile Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Precision Machining (Missile Parts)</h3>
+                    <p class="product-description">Critical components for defense applications including missile structures and assemblies.</p>
+                    <ul class="product-list">
+                        <li>High-precision missile components</li>
+                        <li>Explosive bolts for stage separation</li>
+                        <li>Structural assemblies</li>
+                    </ul>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="images/products/pro2.png" alt="Motor & Generator Shafts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Motor & Generator Shafts</h3>
+                    <p class="product-description">High-precision shafts for industrial motors and generators.</p>
+                    <ul class="product-list">
+                        <li>Up to ⌀ 150 mm and 1500 mm length</li>
+                        <li>Stepped shafts for motors & generators</li>
+                        <li>Worm & spline shafts</li>
+                    </ul>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="images/products/pro3.png" alt="Friction Welded Shafts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Friction Welded Shafts</h3>
+                    <p class="product-description">Specialized welded and phosphated shafts for demanding applications.</p>
+                    <ul class="product-list">
+                        <li>⌀ 18 – 24 mm diameter range</li>
+                        <li>L/D ratios up to 30:1</li>
+                        <li>Used in washdown motors and pool pumps</li>
+                    </ul>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="images/products/pro4.png" alt="Traction Motor Shafts & Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Traction Motor Shafts & Parts</h3>
+                    <p class="product-description">Critical components for railway traction motors and systems.</p>
+                    <ul class="product-list">
+                        <li>Railway traction motor shafts</li>
+                        <li>Precision machined components</li>
+                    </ul>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="images/products/pro5.png" alt="Gearbox Shafts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Gearbox Shafts</h3>
+                    <p class="product-description">Zero axial lead shafts with specialized treatments.</p>
+                    <ul class="product-list">
+                        <li>Zero axial lead (twist) and meloniting</li>
+                        <li>⌀ 40 – 50 mm diameter</li>
+                        <li>Woodruff & angular keyways</li>
+                    </ul>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="images/products/pro6.png" alt="Gearbox Shafts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Centerless Ground Shafts</h3>
+                    <p class="product-description">Precision ground small diameter shafts.</p>
+                    <ul class="product-list">
+                        <li>⌀ 6 – 24 mm range</li>
+                        <li>Swiss turned & ground</li>
+                        <li>Worm & spline capabilities</li>
+                    </ul>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <img src="images/products/pro7.png" alt="Switchgear Shafts & Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Switchgear Shafts & Parts</h3>
+                    <p class="product-description">Precision components for electrical switchgear systems.</p>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <img src="images/products/pro8.png" alt="Digital Printing Press Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Digital Printing Press Parts</h3>
+                    <p class="product-description">Machined parts for Hewlett Packard digital printing presses.</p>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <img src="images/products/pro9.png" alt="Digital Printing Press Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Transfer & Compression Molding</h3>
+                    <p class="product-description">Specialized thermoset molded components.</p>
+                    <ul class="product-list">
+                        <li>Missile launcher connectors (18-pin)</li>
+                        <li>Gyroscope commutators</li>
+                        <li>Current leads & collectors</li>
+                    </ul>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <img src="images/products/pro10.png" alt="Digital Printing Press Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Sheet Metal Components</h3>
+                    <p class="product-description">Precision stamped and formed sheet metal parts.</p>
+                </div>
+
+                <!-- Product 11 -->
+                <div class="product-card">
+                    <img src="images/products/pro11.png" alt="Digital Printing Press Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Injection Molding</h3>
+                    <p class="product-description">Thermoplastic injection molded components.</p>
+                </div>
+
+                <!-- Product 12 -->
+                <div class="product-card">
+                    <img src="images/products/pro12.png" alt="Digital Printing Press Parts" style="height: 200px; width: 100%; object-fit: cover; border-radius: 0.5rem;">
+                    <h3 class="product-title">Electromechanical Assemblies</h3>
+                    <p class="product-description">Special connectors and complex assemblies.</p>
+                </div>
+            </div>
+
+            <!-- Additional Product Showcase -->
+            <div style="margin-top: 3rem; background: linear-gradient(to bottom right, #f8fafc, #e2e8f0); padding: 2rem; border-radius: 0.5rem; border: 1px solid #e5e7eb;">
+                <h3 style="font-size: 1.5rem; font-weight: bold; color: #1f2937; margin-bottom: 1rem; text-align: center;">Precision Machined Components Gallery</h3>
+                <p style="margin: 0 auto 1.5rem; max-width: 760px; color: #475569; text-align: center;">Explore our precision machined components gallery showcasing high-quality parts produced with advanced CNC systems and grinding technology, designed for demanding applications.</p>
+                <div class="grid-2">
+                    <img src="images/products/pro13.png" alt="Precision Machined Components" style="max-height: 300px; width: 100%; object-fit: contain; border-radius: 0.5rem; background: white; padding: 0.5rem;">
+                    <img src="images/products/pro14.png" alt="Precision Machined Components" style="max-height: 300px; width: 100%; object-fit: contain; border-radius: 0.5rem; background: white; padding: 0.5rem;">
+                </div>
+
+                <div class="gallery-info-grid">
+                    <div class="gallery-info-card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        </svg>
+                        <div>
+                            <strong>Manufacturing Excellence Since 1987</strong>
+                            <p>Delivering precision machined components with consistent quality and reliability for demanding industries.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-info-card">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="6" width="20" height="12" rx="2"></rect>
+                            <path d="M6 12h.01M10 12h4"></path>
+                        </svg>
+                        <div>
+                            <strong>45,000 Sq Ft State-of-the-Art Facility</strong>
+                            <p>Our modern production space supports high-volume manufacturing and tight process control.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                    <h3 style="font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">Company Overview</h3>
+                    <ul class="list-check-white">
+                        <li>ISO 9001:2015 Certified</li>
+                        <li>Ready for AS 9100 Rev D</li>
+                        <li>Global Client Base</li>
+                        <li>Advanced Manufacturing Technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p style="color: #9ca3af;">
+                © <span id="year"></span> Renuka Group. All rights reserved.
+            </p>
+            <div class="footer-contact">
+                <div>
+                    <strong>Renuka Advanced Systems</strong><br>
+                    Phone: +91 40 2307 7482<br>
+                    Email: <a href="mailto:info@renukasystems.in">info@renukasystems.in</a><br>
+                    Website: <a href="https://renukasystems.in/" target="_blank" rel="noopener">renukasystems.in</a>
+                </div>
+                <div>
+                    <strong>Renuka Precision Systems</strong><br>
+                    Phone: +91 6281 827017<br>
+                    Email: <a href="mailto:info@renukasystems.in">info@renukasystems.in</a><br>
+                    Website: <a href="https://renukaprecision.com/" target="_blank" rel="noopener">renukaprecision.com</a>
+                </div>
+            </div>
+            <p style="font-size: 0.875rem; color: #6b7280; margin-top: 0.5rem;">
+                Precision Manufacturing | Advanced Systems | Quality Excellence
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
